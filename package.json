@@ -1,0 +1,12 @@
+{
+  "name": "wall-notes",
+  "version": "1.0.0",
+  "description": "A simple note wall where users can post a name and note.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
