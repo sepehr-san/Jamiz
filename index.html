@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>جامیز مهربانی</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1 id="jamizHeader">جامیز مهربانی</h1>
+    <button id="writeBtn">نوشتن</button>
+  </header>
+
+  <main>
+    <div id="cardsContainer"></div>
+  </main>
+
+  <!-- Modal Form -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <h2> </h2>
+      <form id="noteForm">
+        <label for="name">اسم من:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="note">حرفی که شدیدا توی دلمه:</label>
+        <textarea id="note" name="note" required></textarea>
+        <button type="submit">بزن‌بریم</button>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <p id="footerText" style="cursor: pointer;">
+      چرا؟
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
